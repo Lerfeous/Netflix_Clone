@@ -13,6 +13,10 @@ export default function List() {
     {
       listRef.current.style.transform = `translateX(${230 + distance}px)`;
     }
+    if(direction === "right")
+    {
+      listRef.current.style.transform = `translateX(${-230 + distance}px)`;
+    }
     console.log(distance)
   }
   return (
