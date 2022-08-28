@@ -18,10 +18,10 @@ export default function Listitem({index}) {
    <>
       <div className="itemInfo">
         <div className="icons">
-          <PlayArrow/>
-          <Add/>
-          <ThumbUpAltOutlined/>
-          <ThumbDownAltOutlined/>
+          <PlayArrow className="icon"/>
+          <Add className="icon"/>
+          <ThumbUpAltOutlined className="icon"/>
+          <ThumbDownAltOutlined className="icon"/>
         </div>
         <div className="itemInfoTop">
           <span>2 hour 35mins</span>
@@ -29,7 +29,7 @@ export default function Listitem({index}) {
           <span>2021</span>
         </div>
         <div className="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, aperiam omnis dolorum dolor earum assumenda dolore. Distinctio velit minus, quae error recusandae.
+          Lorem ipsum dolor sit amet. Dolores, aper assumenda dolore. Distinctio velit minus, quae error dolor sit amet recusandae.
         </div>
         <div className="genre">Thriller</div>
       </div>
