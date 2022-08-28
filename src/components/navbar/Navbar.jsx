@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
             <div className="right">
                 <Search className="icon"/>
-                <span>KID</span>
+                <span>YASH</span>
                <Notifications className="icon"/>
                <img src="https://cdnb.artstation.com/p/assets/images/images/018/618/245/large/joshua-redican-tw-rugby-ideas2.jpg?1560078775" alt="" />
                
