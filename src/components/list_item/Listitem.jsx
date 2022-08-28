@@ -1,6 +1,6 @@
 import { Add, PlayArrow, ThumbDownAltOutlined, ThumbUpAltOutlined } from "@material-ui/icons";
 import { useState } from "react";
-import batman_trailer from "/Users/yash/Desktop/NETFLIX/Netflix_Clone/src/components/list_item/trailer_batman.mov";
+import batman_trailer from "/Users/yash/Desktop/NETFLIX/Netflix_Clone/src/components/list_item/trailer.mov";
 import "./listitem.scss"
 
 export default function Listitem({index}) {
@@ -16,7 +16,6 @@ export default function Listitem({index}) {
       <img src="https://cdn.mos.cms.futurecdn.net/Xnb4HEar447wmhJJjuRkMY.jpg" alt="" />
      {isHovered && (
    <>
-      <video src= {batman_trailer} autoPlay={true} loop />
       <div className="itemInfo">
         <div className="icons">
           <PlayArrow/>
@@ -34,6 +33,7 @@ export default function Listitem({index}) {
         </div>
         <div className="genre">Thriller</div>
       </div>
+      
     </>
        )}
     </div>
