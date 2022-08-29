@@ -1,6 +1,5 @@
 import { Add, PlayArrow, ThumbDownAltOutlined, ThumbUpAltOutlined } from "@material-ui/icons";
 import { useState } from "react";
-import batman_trailer from "/Users/yash/Desktop/NETFLIX/Netflix_Clone/src/components/list_item/trailer.mov";
 import "./listitem.scss"
 
 export default function Listitem({index}) {
