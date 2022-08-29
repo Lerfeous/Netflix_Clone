@@ -1,5 +1,5 @@
 import { ArrowBackOutlined } from "@material-ui/icons"
-import trailer from "/Users/yash/Desktop/NETFLIX/Netflix_Clone/src/pages/watch/trailer.mov";
+import trailer from "/Users/yash/Desktop/NETFLIX/Netflix_Clone/src/pages/watch/trailer 20.10.47.mov";
 import "./watch.scss"
 
 export default function Watch() {
